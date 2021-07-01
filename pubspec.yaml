@@ -1,0 +1,24 @@
+name: android_foreground_service_with_awesome_notifications
+description: Provides Android foreground services based on awesome_notifications notification system
+version: 0.0.6+9
+repository: https://github.com/EPNW/android_foreground_service_with_awesome_notifications
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  awesome_notifications: ^0.0.6+9
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: eu.epnw.afswan
+        pluginClass: AFSWANPlugin
