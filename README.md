@@ -7,7 +7,7 @@ So this package provides a foreground service that uses [awesome_notifications P
 That is possible because in flutter you can import java classes from other packages.
 
 ## Configuration
-While the [foreground service permission](https://developer.android.com/reference/android/Manifest.permission#FOREGROUND_SERVICE) is automatically added by this plugin, you have to add the ``<service>` tag manually to your `AndroidManifest.xml`. Theoretically, the service could have been declarded by this plugin, too, but you might wan't to use other parameters, so we opted to let you add it. Inside your `<application>` tag add
+While the [foreground service permission](https://developer.android.com/reference/android/Manifest.permission#FOREGROUND_SERVICE) is automatically added by this plugin, you have to add the `<service>` tag manually to your `AndroidManifest.xml`. Theoretically, the service could have been declarded by this plugin, too, but you might wan't to use other parameters, so we opted to let you add it. Inside your `<application>` tag add
 ```xml
  <service   android:name="eu.epnw.afswan.ForegroundService"
             android:enabled="true"            
