@@ -1,6 +1,6 @@
 name: android_foreground_service_with_awesome_notifications
-description: Provides Android foreground services based on awesome_notifications notification system
-version: 0.0.6+9
+description: Provides an Android foreground service based on awesome_notifications notification system
+version: 1.0.0
 repository: https://github.com/EPNW/android_foreground_service_with_awesome_notifications
 
 environment:
