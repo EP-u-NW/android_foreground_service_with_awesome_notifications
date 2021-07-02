@@ -22,7 +22,7 @@ While the [foreground service permission](https://developer.android.com/referenc
  If the icon of the notification is not set or not valid, the notification will appear, but will look very strange. Make sure to always specify an valid icon. If you need help with this, take a look at [awesome_notifications examples](https://github.com/rafaelsetragni/awesome_notifications/tree/master/example).
 
 ## Behaviour on platforms other than Android
-On any platform other then Android, all methods in this plugin are no-ops (they do nothing when called), so you don't need to do a platform check befor calling them.
+On any platform other then Android, all methods in this plugin are no-ops (they do nothing when called), so you don't need to do a platform check before calling them.
 
  ## About this plugins name
  Yes, `android_foreground_service_with_awesome_notifications` is a very long plugin name, but on the other hand very precise and tells you what this plugin does, just by reading the title. In some places we use `AFSWAN` as abbreviation.
