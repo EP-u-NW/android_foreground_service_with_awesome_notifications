@@ -3,4 +3,4 @@
 library android_foreground_service_with_awesome_notifications;
 
 export 'src/constants.dart';
-export 'src/awfswan_web.dart' if (dart.library.io) 'src/afswan_io.dart';
+export 'src/afswan_web.dart' if (dart.library.io) 'src/afswan_io.dart';
