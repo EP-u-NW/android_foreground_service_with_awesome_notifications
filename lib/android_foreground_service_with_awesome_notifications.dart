@@ -74,7 +74,7 @@ class AFSWAN {
   /// Multiple type flags can be ORed together (using the `|` operator).
   /// Note that `foregroundServiceType` must be a subset of the `android:foregroundServiceType` defined in your `AndroidManifest.xml`!
   ///
-  /// **IMPORTANT**: If [`notification.content.icon`](https://pub.dev/documentation/awesome_notifications/latest/awesome_notifications/NotificationContent/icon.html) 
+  /// **IMPORTANT**: If [`notification.content.icon`](https://pub.dev/documentation/awesome_notifications/latest/awesome_notifications/NotificationContent/icon.html)
   /// is not set or not valid, the notification will appear, but will look very strange.
   /// Make sure to always specify an valid icon.
   static Future<void> startForeground(
