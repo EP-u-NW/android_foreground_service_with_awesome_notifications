@@ -1,3 +1,6 @@
+# DISCONTINUED
+The functionality of this package was integrated directly into [awesome_notifications](https://pub.dev/packages/awesome_notifications) see [here](https://pub.dev/documentation/awesome_notifications/latest/android_foreground_service/android_foreground_service-library.html).
+
 # android_foreground_service_with_awesome_notifications
 
 There are already serveral packages on pub that allow you to create an Android foreground service. Since an Android foreground service always needs an Android notification, most of the plugins come with an own notification system.
